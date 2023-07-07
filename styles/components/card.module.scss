@@ -1,0 +1,130 @@
+.card {
+    height: 300px;
+    width: 250px;
+    // box-shadow: 1px 1px 16px 1px rgba(0, 0, 0, 0.502);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+    // border-radius: 6px;
+    .card_content {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        .card_poster {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition-timing-function: ease-in-out;
+                transition-duration: 0.4s;
+                // border-radius: 6px;
+            }
+        }
+        .c_name_strip {
+            display: flex;
+            height: 20px;
+            width: 100%;
+            position: absolute;
+            background: rgba(0, 0, 0, 0.476);
+            bottom: 0%;
+            justify-content: center;
+            animation: animate-c_name_strip-in 0.4s linear forwards;
+            span {
+                color: white;
+                font-family: 'Inter', sans-serif;
+                font-size: 14px;
+            }
+        }
+        .c_details_overlay {
+            display: none;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.476);
+            top: 0%;
+            animation: animate-c_details_overlay-in 0.4s linear forwards;
+            transition-timing-function: ease-in-out;
+            transition-duration: 0.4s;
+            flex-direction: column;
+            padding: 4px;
+            row-gap: 10px;
+            justify-content: center;
+            .cdo_strip {
+                display: flex;
+                width: 100%;
+                height: fit-content;
+                span {
+                    color: white;
+                    font-size: 14px;
+                    font-family: 'Inter', sans-serif;
+                }
+                button {
+                    height: 40px;
+                    width: 100%;
+                    border: 1px solid white;
+                    background: none;
+                    color: white;
+                    border-radius: 6px;
+                    transition-timing-function: ease-in-out;
+                    transition-duration: 0.4s;
+                    &:hover {
+                        cursor: pointer;
+                        background: var(--pink-primary);
+                        border-color: var(--pink-primary);
+                    }
+                }
+            }
+        }
+    }
+    &:hover {
+        cursor: pointer;
+        box-shadow: 1px 1px 40px 1px rgba(0, 0, 0, 0.488);
+        .card_content {
+            .card_poster {
+                img {
+                    transform: scale(1.02);
+                }
+            }
+            .c_name_strip {
+                // display: none;
+                animation: animate-c_name_strip-out 0.4s linear forwards;
+            }
+            .c_details_overlay {
+                display: flex;
+            }
+        }
+    }
+}
+
+@keyframes animate-c_name_strip-in {
+    0% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes animate-c_details_overlay-in {
+    0% {
+        transform: translateY(100%);
+    }
+}
+
+@keyframes animate-c_name_strip-out {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+@keyframes animate-c_details_overlay-out {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}

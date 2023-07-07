@@ -1,0 +1,77 @@
+.nav {
+    height: 80px;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    position: fixed;
+    z-index: 10;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+    .nav_content {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        // position: fixed;
+        justify-content: space-between;
+        .nav_col {
+            height: 100%;
+            width: fit-content;
+            .nav_col_img_icon {
+                display: flex;
+                height: 100%;
+                width: 100px;
+                align-items: center;
+                // justify-content: center;
+                position: relative;
+                img {
+                    height: 100%;
+                    width: fit-content;
+                    object-fit: contain;
+                }
+            }
+            ul[data-elm-type = "nav-links"] {
+                display: flex;
+                height: 100%;
+                width: 100%;
+                align-items: center;
+                list-style-type: none;
+                column-gap: 6vw;
+                li {
+                    display: flex;
+                    height: 100%;
+                    width: fit-content;
+                    align-items: center;
+                    a {
+                        display: flex;
+                        height: 100%;
+                        width: fit-content;
+                        align-items: center;
+                        text-decoration: none;
+                        color: white;
+                        transition-timing-function: ease-in-out;
+                        transition-duration: 0.4s;
+                        &:hover {
+                            color: #e44666;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.scrolled_true {
+        background: white;
+        .nav_content {
+            .nav_col {
+                ul {
+                    li {
+                        a {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.scrolled_false {
+        background: none;
+    }
+}

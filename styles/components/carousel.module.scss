@@ -1,0 +1,30 @@
+.carousel_wrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    .carousel_content {
+        display: flex;
+        height: 100%;
+        width: fit-content;
+        position: relative;
+        .cc_img_wrapper {
+            position: relative;
+            height: 100%;
+            width: 100vw;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .cc_overlay {
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.451);
+            position: absolute;
+            z-index: 2;
+        }
+    }
+}
