@@ -31,7 +31,7 @@ export const Card = ({person, onClick}: ICard): JSX.Element => {
                         <span><strong>Primary Sch: </strong>{person.primary_sch}</span>
                     </div>
                     <div className={styles.cdo_strip}>
-                        <button>View More</button>
+                        <button onClick={onClick}>View More</button>
                     </div>
                 </div>
             </div>
