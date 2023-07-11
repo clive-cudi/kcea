@@ -1,6 +1,6 @@
 export interface IPerson {
     name: string;
-    age: CharacterData;
+    age: number;
     image: string;
     village: string;
     primary_sch: string;
@@ -15,7 +15,7 @@ export const persons: IPerson[] = [
       village: "Nkoisuash",
       primary_sch: "Nkoisuash",
       description: "_"
-    }
+    },
     {
       name: "Anne Peyiai Ndonyuo",
       age: 13,
@@ -23,7 +23,7 @@ export const persons: IPerson[] = [
       village: "Ilkesumeti",
       primary_sch: "Esupetai",
       description: "_"
-    }
+    },
     {
       name: "Elizabeth Nakoyian kinayio",
       age: 15,
@@ -31,7 +31,7 @@ export const persons: IPerson[] = [
       village: "salama",
       primary_sch: "Nkairramiram",
       description: "_"
-    }
+    },
     {
       name: "Joyce Resian Keshe",
       age: 13,
@@ -39,7 +39,7 @@ export const persons: IPerson[] = [
       village: "Nkoisuash",
       primary_sch: "Nkoisuash",
       description: "_"
-    }
+    },
     {
       name: "Joyce Resian Keshe",
       age: 13,
@@ -47,291 +47,287 @@ export const persons: IPerson[] = [
       village: "Nkoisuash",
       primary_sch: "Nkoisuash",
       description: "_"
-    }
+    },
     {
       name: "Abigail Kosen",
-      age: ,
+      age: 15,
       image: "/images/Abigail Kosen.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Caren Naitoe",
-      age: ,
+      age: 15,
       image: "/images/Caren Naitoe.jpg",
       village: "",
       primary_sch: "",
       description: "_"
       
-    }
+    },
     {
       name: "Diana Keshe",
-      age: ,
+      age:15 ,
       image: "/images/Diana Keshe.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Elizabeth kariankei",
-      age: ,
+      age: 15,
       image: "/images/Elizabeth kariankei.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Elizabeth nkoitiko",
-      age: ,
+      age: 15,
       image: "/images/elizabeth nkoitiko.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Esther maso",
-      age: ,
+      age: 15,
       image: "/images/Esther maso.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Esther pesi",
-      age: ,
+      age: 15,
       image: "/images/Esther pesi.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Faith solio",
-      age: ,
+      age: 15,
       image: "/images/Faith solio.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Gladys nkoyieyio",
-      age: ,
+      age: 15,
       image: "/images/Gladys nkoyieyio.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Gladys seuri",
-      age: ,
+      age: 15,
       image: "/images/gladys seuri.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Gladys,Elizabeth and shirleen",
-      age: ,
+      age: 15,
       image: "/images/Gladys,Elizabeth and shirleen.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Hellen Nambayio",
-      age: ,
+      age: 15,
       image: "/images/Hellen Nambayio.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Irene Rotiken",
-      age: ,
+      age: 15,
       image: "/images/Irene Rotiken.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
-
+    },
     {
       name: "Jacklyne Nchoe",
-      age: ,
+      age: 15,
       image: "/images/Jacklyne Nchoe.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Jane kesier",
-      age: ,
+      age: 15,
       image: "/images/jane kesier.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Jessica Saoli",
-      age: ,
+      age: 15,
       image: "/images/jessica saoli.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
-
+    },
     {
       name: "Josphine kariankei",
-      age: ,
+      age: 15,
       image: "/images/josphine kariankei.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Josphine Nkoile",
-      age: ,
+      age: 15,
       image: "/images/josphine nkoile.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
-
+    },
     {
       name: "Josphine pion",
-      age: ,
+      age: 15,
       image: "/images/Josphine pion.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
-
+    },
     {
       name: "Joy Nkapiani",
-      age: ,
+      age: 15,
       image: "/images/Joy Nkapiani.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Joyce keshe",
-      age: ,
+      age: 15,
       image: "/images/Joyce keshe.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Melan Tompo",
-      age: ,
+      age: 15,
       image: "/images/Melan Tompo.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Mercy kinayio",
-      age: ,
+      age: 15,
       image: "/images/Mercy kinayio.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Mitchel mootian",
-      age: ,
+      age: 15,
       image: "/images/Mitchel mootian.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Naishorua Taki",
-      age: ,
+      age:15 ,
       image: "/images/Naishorua Taki.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Namunyak koonyo",
-      age: ,
+      age: 15,
       image: "/images/Namunyak koonyo.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Priscilla Namunyak Parate",
-      age: ,
+      age: 15,
       image: "/images/Priscilla Namunyak Parate.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Renny Titany",
-      age: ,
+      age: 15,
       image: "/images/Renny Titany.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Resiato Kerempe",
-      age: ,
+      age: 15,
       image: "/images/Resiato Kerempe.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Salaite koonyi",
-      age: ,
+      age: 15,
       image: "/images/salaite koonyi.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Sheila Kerempe",
-      age: ,
+      age: 15,
       image: "/images/Sheila Kerempe.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Shirleen kapoto",
-      age: ,
+      age: 15,
       image: "/images/shirleen kapoto.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Silvia Lanoi",
-      age: ,
+      age: 15,
       image: "/images/Silvia Lanoi.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Timanoi pion",
-      age: ,
+      age: 15,
       image: "/images/Timanoi pion.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     {
       name: "Vivian Nanteya",
-      age: ,
+      age: 15,
       image: "/images/Vivian Nanteya.jpg",
       village: "",
       primary_sch: "",
       description: "_"
-    }
+    },
     
 ];
