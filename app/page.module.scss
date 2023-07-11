@@ -67,6 +67,7 @@
             }
             &.cards_section {
                 height: fit-content;
+                position: relative;
                 .page_section_content {
                     display: flex;
                     align-items: center;
