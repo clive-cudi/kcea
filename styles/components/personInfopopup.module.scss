@@ -1,0 +1,85 @@
+.pip_wrapper {
+    display: flex;
+    height: fit-content;
+    width: 80vw;
+    background: white;
+    .pip_content {
+        display: flex;
+        height: fit-content;
+        width: 100%;
+		flex-direction: column;
+		padding-bottom: 20px;
+        .pip_strip {
+			display: flex;
+            height: fit-content;
+            width: 100%;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+			flex-direction: column;
+            .pip_strip_img {
+				height: 200px;
+				width: 100px;
+                position: relative;
+				img {
+					object-fit: cover;
+				}
+            }
+				.bg_image {
+					position: absolute;
+					height: 100%;
+					width: 100%;
+					// background-color: cadetblue;
+					background-repeat: no-repeat;
+					background-size: cover;
+					background-position: center;
+					filter: blur(4px);
+					-webkit-filter: blur(4px);
+				}
+				h3 {
+					font-family: 'Inter', sans-serif;
+					font-size: 30px;
+					margin-top: 20px;
+				}
+                            hr {
+                                width: 100px;
+                                height: 4px;
+                                border: none;
+                                background: var(--pink-primary);
+                                border-radius: 6px;
+                                margin-top: 6px;
+                            }
+							ul {
+								display: flex;
+								flex-direction: column;
+								height: fit-content;
+								list-style-type: none;
+								text-align: center;
+								row-gap: 10px;
+								margin-top: 20px;
+							}
+							p {
+								font-family: 'Inter', sans-serif;
+								font-size: 14px;
+							}
+                button {
+					margin-top: 20px;
+                    height: 40px;
+                    width: 100%;
+					max-width: 300px;
+                    border: 1px solid var(--pink-primary);
+                    background: none;
+                    color: var(--pink-primary);
+                    border-radius: 6px;
+                    transition-timing-function: ease-in-out;
+                    transition-duration: 0.4s;
+                    &:hover {
+                        cursor: pointer;
+                        background: var(--pink-primary);
+                        border-color: var(--pink-primary);
+						color: white;
+                    }
+                }
+        }
+    }
+}
