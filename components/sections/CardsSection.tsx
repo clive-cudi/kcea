@@ -6,15 +6,7 @@ import { Card } from "../Card";
 import { persons as cards_data } from "@/assets";
 import { Modal } from "../Modal";
 import { PersonInfoPopup } from "../PersonInfoPopup";
-
-export interface IPerson {
-  name: string;
-  age: number;
-  image: string;
-  village: string;
-  primary_sch: string;
-  description: string;
-}
+import type { IPerson } from "@/assets";
 
 export const CardsSection = (): JSX.Element => {
   const [cards, setCards] = useState<IPerson[]>([...cards_data]);

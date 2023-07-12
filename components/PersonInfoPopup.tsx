@@ -34,7 +34,7 @@ export const PersonInfoPopup = ({info}: IPersonInfoPopup): JSX.Element => {
                     <p>{info.description}</p>
                 </div>
                 <div className={styles.pip_strip}>
-                    <button>View Story</button>
+                    <a href={`/story/${info.uid}`}>View Story</a>
                 </div>
             </div>
         </div>

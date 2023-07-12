@@ -62,7 +62,10 @@
 								font-family: 'Inter', sans-serif;
 								font-size: 14px;
 							}
-                button {
+                a {
+					display: flex;
+					align-items: center;
+					justify-content: center;
 					margin-top: 20px;
                     height: 40px;
                     width: 100%;
@@ -73,6 +76,8 @@
                     border-radius: 6px;
                     transition-timing-function: ease-in-out;
                     transition-duration: 0.4s;
+					text-decoration: none;
+					font-size: 14px;
                     &:hover {
                         cursor: pointer;
                         background: var(--pink-primary);
