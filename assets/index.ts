@@ -17,7 +17,8 @@ export const persons: IPerson[] = [
     village: 'Nkoisuash',
     primary_sch: 'Nkoisuash',
     description: '_',
-    uid: 'd62262a9-08f2-4092-bc27-29af7cb02533'
+    uid: 'd62262a9-08f2-4092-bc27-29af7cb02533',
+    story: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cum necessitatibus assumenda non, eum consequuntur voluptate illo, cupiditate suscipit ea, earum quod ab adipisci at exercitationem. Sint iusto nemo maxime.'
   },
   {
     name: 'Anne Peyiai Ndonyuo',
