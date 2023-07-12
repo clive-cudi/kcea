@@ -101,11 +101,11 @@ export const CardsSection = (): JSX.Element => {
         <section className={`${styles.page_section} ${styles.cards_section}`}>
           <div className={styles.page_section_content}>
             <div className={`${styles.ls_strip} ${styles.ls_strip_header}`} ref={cardsWrapperRef}>
+              <h2>Our Stories</h2>
+              <hr />
               <div className={styles.ls_strip_search}>
                 <input type={"search"} placeholder={"Search"} onChange={(e) => {setSearchQuery(e.target.value)}} />
               </div>
-              <h2>Our Stories</h2>
-              <hr />
               <div className={styles.ls_strip_nav}>
                 <button onClick={prevSlide}>Previous</button>
                 <button onClick={nextSlide}>Next</button>

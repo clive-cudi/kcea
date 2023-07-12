@@ -175,8 +175,18 @@
                 &.cards_section {
                     .page_section_content {
                         .ls_strip {
-                            .story_cards_wrapper {
-                                grid-template-columns: auto auto;
+                            .scrollable_card_container {
+                                .story_cards_wrapper {
+                                    grid-template-columns: auto auto;
+                                }
+                            }
+                            .ls_strip_search {
+                                position: relative;
+                                margin-top: 20px;
+                            }
+                            .ls_strip_nav {
+                                position: relative;
+                                margin-top: 10px;
                             }
                         }
                     }
@@ -193,8 +203,10 @@
                 &.cards_section {
                     .page_section_content {
                         .ls_strip {
-                            .story_cards_wrapper {
-                                grid-template-columns: auto;
+                            .scrollable_card_container {
+                                .story_cards_wrapper {
+                                    grid-template-columns: auto;
+                                }
                             }
                         }
                     }
