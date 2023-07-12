@@ -83,6 +83,7 @@
                             height: fit-content;
                             align-items: center;
                             flex-direction: column;
+                            position: relative;
                             h2 {
                                 font-size: 30px;
                             }
@@ -95,15 +96,58 @@
                                 margin-top: 6px;
                             }
                         }
-                        .story_cards_wrapper {
-                            display: grid;
-                            height: 100%;
-                            width: 100%;
-                            padding: 40px 10px 20px 10px;
-                            align-items: center;
-                            justify-content: space-evenly;
-                            grid-template-columns: auto auto auto;
-                            row-gap: 20px;
+                        .scrollable_card_container {
+                            display: flex;
+                            width: 100vw;
+                            height: fit-content;
+                            overflow: hidden;
+                            .story_cards_wrapper {
+                                display: grid;
+                                height: 100%;
+                                width: 100vw;
+                                min-width: 100vw;
+                                padding: 40px 10px 20px 10px;
+                                align-items: center;
+                                justify-content: space-evenly;
+                                grid-template-columns: auto auto auto;
+                                row-gap: 20px;
+                            }
+                        }
+                        .ls_strip_search {
+                            display: flex;
+                            position: absolute;
+                            left: 0px;
+                            input {
+                                height: 30px;
+                                padding: 10px;
+                                border: 1px solid var(--pink-primary);
+                                outline: none;
+                            }
+                        }
+                        .ls_strip_nav {
+                            display: flex;
+                            position: absolute;
+                            bottom: 0%;
+                            right: 0%;
+                            column-gap: 10px;
+                            button {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                height: 30px;
+                                width: fit-content;
+                                border: 1px solid var(--pink-primary);
+                                padding: 10px;
+                                background: none;
+                                transition-timing-function: ease-in-out;
+                                transition-duration: 0.4s;
+                                &:hover {
+                                    background: var(--blue-primary);
+                                    border-color: var(--blue-primary);
+                                    cursor: pointer;
+                                    color: white;
+                                }
+                            }
                         }
                     }
                 }
