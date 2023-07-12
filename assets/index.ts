@@ -85,7 +85,7 @@ export const persons: IPerson[] = [
   {
     name: 'Elizabeth kariankei',
     age: 15,
-    image: '/images/Elizabeth kariankei.jpg',
+    image: '/images/Elizabeth kariankei.jpeg',
     village: '',
     primary_sch: '',
     description: '_',
@@ -121,7 +121,7 @@ export const persons: IPerson[] = [
   {
     name: 'Faith solio',
     age: 15,
-    image: '/images/Faith solio.jpg',
+    image: '/images/Faith solio.jpeg',
     village: '',
     primary_sch: '',
     description: '_',
@@ -211,7 +211,7 @@ export const persons: IPerson[] = [
   {
     name: 'Josphine Nkoile',
     age: 15,
-    image: '/images/josphine nkoile.jpg',
+    image: '/images/Josphine nkoile.jpg',
     village: '',
     primary_sch: '',
     description: '_',
@@ -238,7 +238,7 @@ export const persons: IPerson[] = [
   {
     name: 'Joyce keshe',
     age: 15,
-    image: '/images/Joyce keshe.jpg',
+    image: '/images/Joyce keshe story.jpg',
     village: '',
     primary_sch: '',
     description: '_',
@@ -274,7 +274,7 @@ export const persons: IPerson[] = [
   {
     name: 'Naishorua Taki',
     age: 15,
-    image: '/images/Naishorua Taki.jpg',
+    image: '/images/Naishorua Taki.jpeg',
     village: '',
     primary_sch: '',
     description: '_',
@@ -346,7 +346,7 @@ export const persons: IPerson[] = [
   {
     name: 'Silvia Lanoi',
     age: 15,
-    image: '/images/Silvia Lanoi.jpg',
+    image: '/images/Silvia Lanoi.jpeg',
     village: '',
     primary_sch: '',
     description: '_',

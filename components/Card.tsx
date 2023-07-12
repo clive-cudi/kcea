@@ -1,5 +1,5 @@
 import styles from "@/styles/components/card.module.scss";
-import type { IPerson } from "./sections/CardsSection";
+import type { IPerson } from "@/assets";
 import Image from "next/image";
 
 interface ICard {
