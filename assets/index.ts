@@ -18,7 +18,7 @@ export const persons: IPerson[] = [
     primary_sch: 'Nkoisuash',
     description: '_',
     uid: 'd62262a9-08f2-4092-bc27-29af7cb02533',
-    story: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cum necessitatibus assumenda non, eum consequuntur voluptate illo, cupiditate suscipit ea, earum quod ab adipisci at exercitationem. Sint iusto nemo maxime.'
+    story: 'Veronica had an early teenage pregnancy and had to drop out of school in 2022. But Veronica is passionate and she likes school and wants to return to school against her parents wish who wanted to marry her off.'
   },
   {
     name: 'Anne Peyiai Ndonyuo',
@@ -27,7 +27,8 @@ export const persons: IPerson[] = [
     village: 'Ilkesumeti',
     primary_sch: 'Esupetai',
     description: '_',
-    uid: '82947f9b-8741-429c-8285-5c0729afa60a'
+    uid: '82947f9b-8741-429c-8285-5c0729afa60a',
+    story: 'Anne,is under the care of her grand ma,who is so passionate about education though herself never been to school. Every time she comes to my office she is very positive even though she didn’t see a way out to her secondary school of choice; Namunyak girl’s secondary school.'
   },
   {
     name: 'Elizabeth Nakoyian kinayio',
@@ -36,7 +37,8 @@ export const persons: IPerson[] = [
     village: 'salama',
     primary_sch: 'Nkairramiram',
     description: '_',
-    uid: '36ba71ff-6524-42c2-ab8c-f4492d64671c'
+    uid: '36ba71ff-6524-42c2-ab8c-f4492d64671c',
+    story: 'Elizabeth is from a single mom,her mom was a victim of an early marriage. Her 88 year old husband died 4 years ago leaving behind 3 widows with 19 children. Elizabeth ran away from female genital mutilation and is now staying at full gospel church with Bishop luka family and attending primary school.'
   },
   {
     name: 'Joyce Resian Keshe',
@@ -45,16 +47,8 @@ export const persons: IPerson[] = [
     village: 'Nkoisuash',
     primary_sch: 'Nkoisuash',
     description: '_',
-    uid: '6891b084-c269-4c59-87c6-c700c1589999'
-  },
-  {
-    name: 'Joyce Resian Keshe',
-    age: 13,
-    image: '/images/Joyce keshe story.jpg',
-    village: 'Nkoisuash',
-    primary_sch: 'Nkoisuash',
-    description: '_',
-    uid: '488cc8fc-287f-46fc-abdd-959cdb81c1fa'
+    uid: '488cc8fc-287f-46fc-abdd-959cdb81c1fa',
+    story: ' Her father is poligamous with two wives and 11 kids making it so difficult for him to send Resian to secondary school.'
   },
   {
     name: 'Abigail Kosen',
@@ -235,15 +229,6 @@ export const persons: IPerson[] = [
     primary_sch: '',
     description: '_',
     uid: '85c503df-c99e-40c7-b37a-33b2c91b21da'
-  },
-  {
-    name: 'Joyce keshe',
-    age: 15,
-    image: '/images/Joyce keshe story.jpg',
-    village: '',
-    primary_sch: '',
-    description: '_',
-    uid: 'bd3abc4c-6d99-46c5-9138-8ca20a12da44'
   },
   {
     name: 'Melan Tompo',
